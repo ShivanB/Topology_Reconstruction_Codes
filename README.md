@@ -8,4 +8,4 @@ Run file [topology_reconstruct.m]() to get a reconstructed network.
 
 2. Now use the resistance distance estimates $\hat{r}^d_{i,j}\,\forall i,j \in \mathcal{U_B}$ and the known resistance distance measurements $r^d_{i,j}\,\forall i,j \in \mathcal{A}$ to compute the switch positions for constructing the intial network $\Gamma_{aux}$. To execute this run code [MAIN_Initial_switch_position.m](https://github.com/ShivanB/Topology_Reconstruction_Codes/tree/main/A_INITIAL_GUESS_COMPUTE_FOR_GAMMA_AUX). This code solves problem $\mathbf{\Pi_1}$.
 
-3. Construct $\bar{\Gamma}_{aux}$ from $\Gamma_{aux}$
+3. Apply heuristic method to detect the appropriate position of interior nodes. To execute the heuristic method run code [Construt_GAMMA_AUX.m](https://github.com/ShivanB/Topology_Reconstruction_Codes/blob/main/B_CONSTRUCTING_GAMMA_AUX/REFORMULATED_CODE_FINAL_best/Construt_GAMMA_AUX.m) 
