@@ -26,7 +26,7 @@ graph TD;
 Computing initial 
 guess to be fed into Pi1]-->C[B: Codes for 
                                constructing
-                                Gamma_aux]-->D[C; Codes for 
+                                Gamma_aux]-->D[C: Codes for 
                                               Interior node placement]
 -->E[D: Codes for generating 
 planar network from a 
