@@ -16,4 +16,21 @@ Run file [topology_reconstruct.m]() to get a reconstructed network.
 
 5. For rewiring and adjusting the edge weights of the constructed planar network run code [REWIRING_PLANAR_NETWORK.m](https://github.com/ShivanB/Topology_Reconstruction_Codes/blob/main/E_REWIRING_AFTER_PLANAR_NETWORK_CONSTRUCTION/REWIRING_PLANAR_NETWORK.m).
 
-
+# FILE ARRANGEMENT
+```mermaid
+graph TD;
+    A[0: Computes the estimates of
+ resistance distance
+ measurements]-->B[A: Codes for 
+Computing initial 
+guess to be fed into Pi1]-->C[B: Codes for 
+                               constructing
+                                Gamma_aux]-->D[C; Codes for 
+                                              Interior node placement]
+-->E[D: Codes for generating 
+planar network from a 
+non planar network]-->
+F[E: Codes for rewiring and 
+adjusting edge resistances of 
+planar network generated from D];
+'''
