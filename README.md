@@ -19,19 +19,19 @@ Run file [topology_reconstruct.m]() to get a reconstructed network.
 # FILE ARRANGEMENT
 ```mermaid
 graph TD;
-    A[0: Codes for Computing
+    A[File-0: Codes for Computing
     the estimates of
     resistance distance
     measurements]-->B[A: Codes for 
 Computing initial 
-guess to be fed into Pi1]-->C[B: Codes for 
+guess to be fed into Pi1]-->C[File-B: Codes for 
                                constructing
-                                Gamma_aux]-->D[C: Codes for 
+                                Gamma_aux]-->D[File-C: Codes for 
                                               Interior node placement]
--->E[D: Codes for generating 
+-->E[File-D: Codes for generating 
 planar network from a 
 non planar network]-->
-F[E: Codes for rewiring and 
+F[File-E: Codes for rewiring and 
 adjusting edge resistances of 
 planar network generated from D];
 
