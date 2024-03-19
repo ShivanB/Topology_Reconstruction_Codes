@@ -15,3 +15,5 @@ Run file [topology_reconstruct.m]() to get a reconstructed network.
 4. Place interior nodes appropriately and construct corresponding planar networks from a non-planar network. To implement this run code [code_to_be_uploaded]().
 
 5. For rewiring and adjusting the edge weights of the constructed planar network run code [REWIRING_PLANAR_NETWORK.m](https://github.com/ShivanB/Topology_Reconstruction_Codes/blob/main/E_REWIRING_AFTER_PLANAR_NETWORK_CONSTRUCTION/REWIRING_PLANAR_NETWORK.m).
+
+
