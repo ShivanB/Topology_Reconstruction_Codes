@@ -19,9 +19,10 @@ Run file [topology_reconstruct.m]() to get a reconstructed network.
 # FILE ARRANGEMENT
 ```mermaid
 graph TD;
-    A[0: Computes the estimates of
- resistance distance
- measurements]-->B[A: Codes for 
+    A[0: Codes for Computing
+    the estimates of
+    resistance distance
+    measurements]-->B[A: Codes for 
 Computing initial 
 guess to be fed into Pi1]-->C[B: Codes for 
                                constructing
