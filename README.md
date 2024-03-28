@@ -22,7 +22,7 @@ graph TD;
     A[File-0: Codes for Computing
     the estimates of
     resistance distance
-    measurements]-->B[A: Codes for 
+    measurements]-->B[File-A: Codes for 
 Computing initial 
 guess to be fed into Pi1]-->C[File-B: Codes for 
                                constructing
